@@ -10,5 +10,10 @@ html
     = csrf_meta_tags
 
   body
+    nav(class="top-bar" data-topbar)
+    #welcome-panel.panel
+      .content
+        h1 iBeacon Data Cloud
+        = link_to 'Manage Data', '#', class: 'button'
     == yield
     = javascript_include_tag 'application'
