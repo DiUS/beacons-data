@@ -11,9 +11,15 @@ html
 
   body
     nav(class="top-bar" data-topbar)
-    #welcome-panel.panel
-      .content
-        h1 iBeacon Data Cloud
-        = link_to 'Manage Data', '#', class: 'button'
+      ul.title-area
+        li.name
+          h1= link_to 'Beacon Data', root_path
+      - if user_signed_in?
+        section.top-bar-section
+          ul.right
+            li= link_to current_user.email, current_user.email
+            li= link_to 'Logout', destroy_user_session_path, method: :delete
+
+    = render 'common/flash'
     == yield
     = javascript_include_tag 'application'
