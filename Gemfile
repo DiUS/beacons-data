@@ -15,3 +15,4 @@ gem 'spring',	group: :development
 gem 'devise'
 gem 'unicorn'
 gem 'foreman'
+gem 'rails_12factor', group: :production
