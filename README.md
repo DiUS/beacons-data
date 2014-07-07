@@ -2,29 +2,24 @@
 
 [![Build Status](https://travis-ci.org/DiUS/beacons-data.svg?branch=master)](https://travis-ci.org/DiUS/beacons-data)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is backend data repository that provides API for iBeacons configuration data.
 
-Things you may want to cover:
+## Technology Stack
 
-* Ruby version
+The system utilizes the following technology stack:
 
-* System dependencies
+**Ruby 2.0.0**
 
-* Configuration
+**Rails 4.1**
 
-* Database creation
+**PostgreSQL 9.1**
 
-* Database initialization
+**Heroku**
 
-* How to run the test suite
+## Deployment
 
-* Services (job queues, cache servers, search engines, etc.)
+The application is hosted on DiUS Heroku (contact DiUS Administrator for access).  For setting up Heroku tools on your
+system, please refer to [Heroku Documentation] (https://devcenter.heroku.com/articles/quickstart).  In order to deploy the
+application please execute the following:
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+`git push heroku master`
