@@ -1,6 +1,7 @@
 # Beacons Data
 
 [![Build Status](https://travis-ci.org/DiUS/beacons-data.svg?branch=master)](https://travis-ci.org/DiUS/beacons-data)
+[![Code Climate](https://codeclimate.com/github/DiUS/beacons-data.png)](https://codeclimate.com/github/DiUS/beacons-data)
 
 This is backend data repository that provides API for iBeacons configuration data.
 
