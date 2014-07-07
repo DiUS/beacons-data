@@ -1,4 +1,6 @@
-== README
+# Beacons Data
+
+[![Build Status](https://travis-ci.org/DiUS/beacons-data.svg?branch=master)](https://travis-ci.org/DiUS/beacons-data)
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
