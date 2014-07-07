@@ -16,3 +16,9 @@ gem 'devise'
 gem 'unicorn'
 gem 'foreman'
 gem 'rails_12factor', group: :production
+
+group :test, :development do
+	gem 'rspec-rails'
+	gem 'capybara'
+	gem 'shoulda-matchers', require: false
+end
