@@ -16,6 +16,8 @@ gem 'devise'
 gem 'unicorn'
 gem 'foreman'
 gem 'rails_12factor', group: :production
+gem 'awesome_print'
+
 
 group :test, :development do
 	gem 'rspec-rails'
