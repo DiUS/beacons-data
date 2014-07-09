@@ -1,0 +1,15 @@
+#welcome-panel.panel
+  .content
+    .row
+      .large-12.columns
+        h1 iBeacon Data Cloud
+    .row
+      .large-6.columns
+        - if user_signed_in?
+          = link_to 'Manage Data', '#', class: 'button'
+        - else
+          = render 'common/login'
+
+.text-center
+  h1 The storage solution for your iBeacon data
+  h3 For now it is a closed alpha

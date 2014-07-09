@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
-	resources :beacons
+	resources :beacons do
+		get :home, on: :collection
+	end
 
-	root 'beacons#index'
+	root 'beacons#home'
 end
