@@ -1,3 +1,3 @@
 class Beacon < ActiveRecord::Base
-	validates :uuid, presence: true
+	validates :uuid, :major, :minor, presence: true
 end
